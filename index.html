@@ -2,138 +2,240 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- mata tags for SEO -->
-  <meta name="description" content="We manage your business creative communication to drive leads, grow customer base, empower sales and lower marketing expenses.">
-  <meta name="keywords" content="digital marketing, social media, leads">
-  <link rel="stylesheet" href="dist/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&amp;display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/c1a1e85ec2.js" crossorigin="anonymous"></script>
-  <title>SCSS Project</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- mata tags for SEO -->
+    <meta
+      name="description"
+      content="We manage your business creative communication to drive leads, grow customer base, empower sales and lower marketing expenses."
+    />
+    <meta name="keywords" content="digital marketing, social media, leads" />
+    <link rel="stylesheet" href="dist/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c1a1e85ec2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>SCSS Project</title>
+  </head>
 
-  <!--header -->
+  <body>
+    <!--header -->
 
-  <header class="header">
-    <h1>Digital Marketing Agancy</h1>
-    <nav id="navigator-bar" class="navigator-bar" >
-      <ul class="nav-items" role="menu">
-        <li class="nav-item" role="presentation"><a href="#index.html" role="menuitem">Home</a></li>
-        <li class="nav-item" role="presentation"><a href="#products-container" role="menuitem">Products</a></li>
-        <li class="nav-item" role="presentation"><a href="#reviews-container" role="menuitem">Reviews</a></li>
-        <li class="nav-item" role="presentation"><a href="#newsletter-container" role="menuitem">Join Us</a></li>
-      </ul>
-    </nav>
+    <header class="header">
+      <h1>Digital Marketing Agancy</h1>
+      <nav id="navigator-bar" class="navigator-bar">
+        <ul class="nav-items" role="menu">
+          <li class="nav-item" role="presentation">
+            <a href="#index.html" role="menuitem">Home</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="#products-container" role="menuitem">Products</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="#reviews-container" role="menuitem">Reviews</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="#newsletter-container" role="menuitem">Join Us</a>
+          </li>
+        </ul>
+      </nav>
 
-    <!-- logo -->
-    <img src="images/logo.png" alt="logo" id="logo"class="logo">
+      <!-- logo -->
+      <img src="images/logo.png" alt="logo" id="logo" class="logo" />
 
-    <!--hero section-->
-    <section class="hero">
-      <h2 class="heading">An all-inclusive Marketing Solution</h2>
-      <h3 class="sub-heading">We help brands stay relevant to customer engagement demands through social media networks. </h3>
-      <button class="btn-start" aria-label="Speak to a digital advisor through email" >Speak to a digital advisor</button>
-    </section>
-  </header>
+      <!--hero section-->
+      <section class="hero">
+        <div class="hero-text">
+          <h2 class="heading">An all-inclusive Marketing Solution</h2>
+          <h3 class="sub-heading">
+            We help brands stay relevant to customer engagement demands through
+            social media networks.
+          </h3>
+          <button
+            class="hero-button"
+            aria-label="Speak to a digital advisor through email"
+          >
+            Speak to a digital advisor
+          </button>
+        </div>
+      </section>
+    </header>
 
+    <!--main content -->
+    <main class="main-content">
+      <!-- product section -->
+      <section id="products-container" class="products-container">
+        <h3 class="products-heading">Know more about our products</h3>
+        <div class="product">
+          <img
+            src="images/socialmedia.jpg"
+            alt="social media image"
+            class="product-img"
+          />
+          <div class="product-text">
+            <h3 class="product-title">Social Media</h3>
+            <p class="product-details">
+              Generate leads, increase traffic to your website through social
+              media platforms, and turn your business into an active participant
+              in the marketplace.
+            </p>
+          </div>
+        </div>
 
-<!--main content -->
-  <main class="main-content">
+        <div class="product">
+          <img
+            src="images/webdesign .jpg"
+            alt="web design image"
+            class="product-img"
+          />
+          <div class="product-text">
+            <h3 class="product-title">Web Design</h3>
+            <p class="product-details">
+              Get a customized website designed with ecommerce functionality to
+              engage your customers and drive more business online.
+            </p>
+          </div>
+        </div>
 
-    <!-- product section -->
-    <section id="products-container" class="products-container">
-      <h3 class="products-heading">Know more about our products</h3>
-      <div class="product">
-        <img src="images/socialmedia.jpg" alt="social media image" class="product-img">
-        <h3 class="product-title">Social Media</h3>
-        <p class="product-details">Generate leads, increase traffic to your website through social media platforms, and turn your business into an active participant in the marketplace.</p>
-      </div>
-      <div class="product">
-        <img src="images/webdesign .jpg" alt="web design image" class="product-img">
-        <h3 class="product-title">Web Design</h3>
-        <p class="product-details">Get a customized website designed with ecommerce functionality to engage your customers and drive more business online.</p>
-      </div>
-      <div class="product">
-        <img src="images/branding.jpg" alt="branding image" class="product-img">
-        <h3 class="product-title">Branding</h3>
-        <p class="product-details">Access multiple types of targeted digital ads, promotion, and communication</p>
-      </div>
-      <div class="product">
-        <img src="images/Advertising.jpg" alt="digital Advertising image" class="product-img">
-        <h3 class="product-title">Digital Advertising</h3>
-        <p  class="product-details">Access multiple types of targeted digital ads publishing, promotion, and communication. Your brand needs text, image, video, call-only, or app/digital content formats.</p>
-    </section>
+        <div class="product">
+          <img
+            src="images/branding.jpg"
+            alt="branding image"
+            class="product-img"
+          />
+          <div class="product-text">
+            <h3 class="product-title">Branding</h3>
+            <p class="product-details">
+              Access multiple types of targeted digital ads, promotion, and
+              communication
+            </p>
+          </div>
+        </div>
 
-    <!-- reviews section -->
-    <section id="reviews-container" class="reviews-container">
-      <h3 class="reviews-heading">Hear from our clients</h3>
-      <div class="review">
-        <p class="review-text">Wow, I was very impressed with how quickly the agency got things done, and how amazing the turnaround in my sales was!.</p>
-        <p class="review-author">Samantha, business owner </p>
-      </div>
-    </section>
+        <div class="product">
+          <img
+            src="images/Advertising.jpg"
+            alt="digital Advertising image"
+            class="product-img"
+          />
+          <div class="product-text">
+            <h3 class="product-title">Digital Advertising</h3>
+            <p class="product-details">
+              Access multiple types of targeted digital ads publishing,
+              promotion, and communication. Your brand needs text, image, video,
+              call-only, or app/digital content formats.
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <!-- newsletter section -->
-    <section id="newsletter-container" class="newsletter-container">
-      <h3 class="newsletter-heading">Subscribe Our News Letter</h3>
-      <form id="news-form" class="news-form" action="">
-        <label for="email">Enter your email</label>
-        <input type="email" id="email" class="email">
-        <input type="submit" id="news-form-button" class="news-form-button">
-      </form>
+      <!-- reviews section -->
+      <section id="reviews-container" class="reviews-container">
+        <h3 class="reviews-heading">Hear from our clients</h3>
+        <div class="review">
+          <p class="review-text">
+            Wow, I was very impressed with how quickly the agency got things
+            done, and how amazing the turnaround in my sales was!.
+          </p>
+          <p class="review-author">Samantha, business owner</p>
+        </div>
+      </section>
 
-    </section>
-  </main>
-  <footer id="footer" class="footer">
+      <!-- newsletter section -->
+      <section id="newsletter-container" class="newsletter-container">
+        <h3 class="newsletter-heading">Subscribe Our News Letter</h3>
+        <form id="news-form" class="news-form" action="">
+          <label for="email">Enter your email</label>
+          <input type="email" id="email" class="email" />
+          <input type="submit" id="news-form-button" class="news-form-button" />
+        </form>
+      </section>
+    </main>
 
-    <!-- important links -->
-    <section id="important-links" class="important-links">
-      <h2 class="links-heading">Important Links</h2>
-      <ul class="links-menue" role="menu">
-        <li role="presentation"><a href="#" role="menuitem">Our Blog</a></li>
-        <li role="presentation"><a href="#" role="menuitem">Join The Team</a></li>
-        <li role="presentation"><a href="#" role="menuitem">Resources</a></li>
-      </ul>
-    </section>
-    <!-- contact information -->
-    <section id="contact-us" class="contact-us">
-      <h2 class="links-heading">Contact Us</h2>
-      <ul class="links-menue" role="menu">
-        <li role="presentation"><a href="#" role="menuitem" aria-describedby="contact via phone">923-476-387</a></li>
-        <li role="presentation"><a href="mailto:someone@example.com" role="menuitem" aria-describedby="contact via email">someone@example.com</a></li>
-      </ul>
-    </section>
-
-    <!-- social media links -->
-    <section id="social-links" class="social-links">
-      <h2 class="social-heading">Find Us ON</h2>
-      <ul class="socialmedia-menue" role="menu">
+    <footer id="footer" class="footer">
+      <!-- important links -->
+      <section id="important-links" class="important-links">
+        <h2 class="links-heading">Important Links</h2>
+        <ul class="links-menue" role="menu">
+          <li role="presentation"><a href="#" role="menuitem">Our Blog</a></li>
           <li role="presentation">
-            <a href="#" class="footer-link" role="menuitem" aria-label="instagram link">
-                  <i class="fab fa-instagram-square socialmedia-icon" aria-hidden="true"></i>
+            <a href="#" role="menuitem">Join The Team</a>
+          </li>
+          <li role="presentation"><a href="#" role="menuitem">Resources</a></li>
+        </ul>
+      </section>
+      <!-- contact information -->
+      <section id="contact-us" class="contact-us">
+        <h2 class="links-heading">Contact Us</h2>
+        <ul class="links-menue" role="menu">
+          <li role="presentation">
+            <a href="#" role="menuitem" aria-describedby="contact via phone"
+              >923-476-387</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="mailto:someone@example.com"
+              role="menuitem"
+              aria-describedby="contact via email"
+              >someone@example.com</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!-- social media links -->
+      <section id="social-links" class="social-links">
+        <h2 class="social-heading">Find Us ON</h2>
+        <ul class="socialmedia-menue" role="menu">
+          <li role="presentation">
+            <a
+              href="#"
+              class="footer-link"
+              role="menuitem"
+              aria-label="instagram link"
+            >
+              <i
+                class="fab fa-instagram-square socialmedia-icon"
+                aria-hidden="true"
+              ></i>
             </a>
           </li>
 
           <li role="presentation">
-            <a href="#" class="footer-link" role="menuitem" aria-label="twitter link">
-                <i class="fab fa-twitter-square socialmedia-icon" aria-hidden="true"></i>
+            <a
+              href="#"
+              class="footer-link"
+              role="menuitem"
+              aria-label="twitter link"
+            >
+              <i
+                class="fab fa-twitter-square socialmedia-icon"
+                aria-hidden="true"
+              ></i>
             </a>
-        </li>
+          </li>
 
-        <li role="presentation">
-          <a href="#" class="footer-link" role="menuitem" aria-label="facebook link">
-              <i class="fab fa-facebook-square socialmedia-icon" aria-hidden="true"></i>
-          </a>
-        </li>
-
-      </ul> 
-    </section>
-
-    
-
-  </footer>
-</body>
+          <li role="presentation">
+            <a
+              href="#"
+              class="footer-link"
+              role="menuitem"
+              aria-label="facebook link"
+            >
+              <i
+                class="fab fa-facebook-square socialmedia-icon"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
 </html>
